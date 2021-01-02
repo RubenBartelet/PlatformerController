@@ -53,6 +53,18 @@ controller = {
             case 40://de omlaag pijl
                 controller.down = key_state;
             break;
+            case 65://a
+                controller.left = key_state;
+            break;
+            case 87://w
+                controller.up = key_state;
+            break;
+            case 68://d
+                controller.right = key_state;
+            break;
+            case 83://s
+                controller.down = key_state;
+            break;
             case 90://de z knop
                 controller.speed2 = key_state;
             break;
