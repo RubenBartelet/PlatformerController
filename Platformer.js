@@ -59,6 +59,9 @@ controller = {
             case 87://w
                 controller.up = key_state;
             break;
+            case 32://space
+                controller.up = key_state;
+            break;
             case 68://d
                 controller.right = key_state;
             break;
